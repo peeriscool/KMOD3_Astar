@@ -631,12 +631,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   width: 10
-  height: 10
+  height: 12
   scaleFactor: 1
   cellPrefab: {fileID: 8932503495734551348, guid: be3d5e704eab71c4aa3e4cdd60fda5de,
     type: 3}
-  desiredWallpercentage: 0.55
-  seed: 1234
+  desiredWallpercentage: 0.69
+  seed: 1231
 --- !u!4 &1444179295
 Transform:
   m_ObjectHideFlags: 0
