@@ -88,7 +88,7 @@ public class Astar
                 if (tempGScore < node.GScore)
                 {//the new path is shorter, update the GScore and the parent (for pathing)
                     node.GScore = tempGScore;
-                    node.HScore = GetDistance(node, EndNode);
+                   // node.HScore = GetDistance(node, EndNode);
                     node.parent = current;
 
                     if(!OpenSet.Contains(node))
@@ -124,6 +124,7 @@ public class Astar
             path.Add(currentNode.position);
             currentNode = currentNode.parent;
         }
+        //add start poss
         path.Reverse();
         return path;
     }
